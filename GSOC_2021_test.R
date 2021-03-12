@@ -92,7 +92,7 @@ fit_locdisp_mlfp <- function(E, p, dof, threshold, verbose=TRUE){
   #   dof: Degree of freedom of Student t distribution
   #   threshold: The convergence threshold of the routine
   #   verbose: If TRUE, prints the parameters and the iterations; if not, not. 
-  #            Default is FALSE.
+  #            Default is TRUE.
   #   
   # Returns:
   #   The maximum likelihood estimates of the location and dispersion parameters
